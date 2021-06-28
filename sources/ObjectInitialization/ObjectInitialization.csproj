@@ -1,10 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Nagarro.ObjectInitialization</RootNamespace>
-    <AssemblyName>Nagarro.ObjectInitialization</AssemblyName>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Dust in the Wind</Company>
+        <Authors>Dust in the Wind</Authors>
+        <Product>Object Initialization</Product>
+        <Description>A C# Pill that highlights the order in which the fields, properties and constructors, both static and instance, are initialized in C#.</Description>
+        <Copyright>Copyright © Dust in the Wind 2020</Copyright>
+    </PropertyGroup>
 
 </Project>

@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace Nagarro.ObjectInitialization
+namespace ObjectInitialization
 {
     internal class Base
     {
-        private static Something staticField = new Something("Base.Static.Field");
-        private Something instanceField = new Something("Base.Instance.Field");
+        private static Trace staticField = new Trace("Base.Static.Field");
+        private Trace instanceField = new Trace("Base.Instance.Field");
 
         static Base()
         {
