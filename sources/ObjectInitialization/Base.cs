@@ -7,6 +7,9 @@ namespace ObjectInitialization
         private static Trace staticField = new Trace("Base.Static.Field");
         private Trace instanceField = new Trace("Base.Instance.Field");
 
+        private static Trace StaticProperty { get; set; } = new Trace("Base.Static.Property");
+        private Trace InstanceProperty { get; set; } = new Trace("Base.Instance.Property");
+
         static Base()
         {
             Console.WriteLine("Base.Static.Constructor");
