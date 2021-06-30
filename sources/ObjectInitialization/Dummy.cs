@@ -2,9 +2,9 @@
 
 namespace ObjectInitialization
 {
-    internal class Trace
+    internal class Dummy
     {
-        public Trace(string text)
+        public Dummy(string text)
         {
             Console.WriteLine(text);
         }

@@ -25,5 +25,5 @@ Language (C#)
 - In each class:
   - create a static constructor that writes a message to the console, to know when it was called.
   - create an instance constructor that writes a message to the console, to know when it was called.
-- run the application and observe the order in which the messages are displayed in the console.
+- Run the application and observe the order in which the messages are displayed in the console.
 
