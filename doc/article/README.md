@@ -2,33 +2,9 @@
 
 ## Problem Description
 
-**Object Initialization**
+Sometimes (not very often), the order in which the fields, properties and constructors are initialized/called is important. In this C# Pill I will try to answer this question:
 
-When an object is created in C#, it passes through an initialization process so that, when it is first used, it already has a specific state. This initialization includes:
-
-- setting specific values to its fields;
-- performing additional actions from the constructor.
-
-**Fields**
-
-But it is not as simple as it seams. There are two ways the fields can be initialized:
-
-- when they are declared or ...
-- ... as a result of an additional action from the constructor.
-
-**Properties**
-
-Oh, wait, there are also auto properties that can be initialized, same as fields, in two ways.
-
-**Static members**
-
-And over that, there is the concept of static fields and static constructors. When are they initialized/called? Before or after the fields, properties and constructors?
-
-**Question**
-
-So, the natural question is:
-
-- What is the order in which are initialized/called fields, properties and constructors, both static and instance?
+- What is the order in which are initialized/called fields, properties and constructors, both static and instance in C#?
 
 ## Setup
 
