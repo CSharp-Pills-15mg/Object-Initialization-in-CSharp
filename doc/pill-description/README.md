@@ -9,7 +9,7 @@ Language (C#)
 - Q: What is the order in which the fields, properties and constructors are called in C#?
 - A: Highlight the order of calling them by creating a short program.
 
-## Plan
+## Recipe
 
 - Create a C# Console Application.
 - Create two classes. One should inherit the other one.
