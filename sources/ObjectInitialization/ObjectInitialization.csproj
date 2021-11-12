@@ -1,14 +1,36 @@
+<!--
+C# Pills 15mg
+Copyright (C) 2021 Dust in the Wind
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <RootNamespace>DustInTheWind.ObjectInitialization</RootNamespace>
+        <AssemblyName>DustInTheWind.ObjectInitialization</AssemblyName>
+
         <Company>Dust in the Wind</Company>
         <Authors>Dust in the Wind</Authors>
-        <Product>Object Initialization</Product>
+        <Product>C# Pills 15mg</Product>
+        <Copyright>Copyright © Dust in the Wind 2021</Copyright>
+        <NeutralLanguage>en</NeutralLanguage>
+
         <Description>A C# Pill that highlights the order in which the fields, properties and constructors, both static and instance, are initialized in C#.</Description>
-        <Copyright>Copyright © Dust in the Wind 2020</Copyright>
     </PropertyGroup>
 
 </Project>
